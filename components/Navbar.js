@@ -6,7 +6,7 @@ const Navbar = (props) => {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     const navbarbg = {
-        height: "5rem",
+        height: "10rem",
         width: "100%",
         top: "0"
     }
@@ -37,7 +37,7 @@ const Navbar = (props) => {
                             <span className="block h-0.5 w-6 animate-pulse bg-white"></span>
                         </div>
 
-                        <div className={isNavOpen ? "showMenuNav my-20 " : "hideMenuNav"}>
+                        <div className={isNavOpen ? "showMenuNav my-40 " : "hideMenuNav"}>
                         
                             <div
                                 className="CROSS-ICON animate-pulse bg-white absolute top-0 right-0 py-2 px-5 "
