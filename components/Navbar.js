@@ -11,7 +11,7 @@ const Navbar = (props) => {
         top: "0"
     }
     const listitems = {
-        marginRight : "33.5rem",
+        marginRight: "33.5rem",
         // : "100%"
     }
 
@@ -27,7 +27,7 @@ const Navbar = (props) => {
 
                 </Link>
                 <nav >
-                    <section className="MOBILE-MENU flex lg:hidden">
+                    <section className="MOBILE-MENU flex lg:hidden shadow-2xl">
                         <div
                             className="HAMBURGER-ICON rounded bg-gray-800  space-y-2 px-1 py-1 mx-5"
                             onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
@@ -37,13 +37,13 @@ const Navbar = (props) => {
                             <span className="block h-0.5 w-6 animate-pulse bg-white"></span>
                         </div>
 
-                        <div className={isNavOpen ? "showMenuNav my-40 " : "hideMenuNav"}>
-                        
+                        <div className={isNavOpen ? "showMenuNav bg-white my-40 shadow-2xl rounded-b-3xl " : "hideMenuNav"}>
+
                             <div
                                 className="CROSS-ICON animate-pulse bg-white absolute top-0 right-0 py-2 px-5 "
                                 onClick={() => setIsNavOpen(false)} // change isNavOpen state to false to close the menu
                             >
-                                
+
                                 <svg
                                     className="h-8 w-8 text-gray-800 "
                                     viewBox="0 0 24 24"
@@ -71,7 +71,7 @@ const Navbar = (props) => {
                         </div>
                     </section>
 
-                    <ul className="DESKTOP-MENU hidden space-x-8 lg:flex font-serif"style={listitems}>
+                    <ul className="DESKTOP-MENU hidden space-x-8 lg:flex font-serif" style={listitems}>
                         <li>
                             <Link href="/">Home</Link>
                         </li>
@@ -105,30 +105,7 @@ const Navbar = (props) => {
             </div>
 
 
-            {/* <header className=" text-gray-600 body-font shadow-2xl">
-                <div className=" container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                    <Link href="/" className=" flex title-font font-medium items-center text-white mb-4 md:mb-0">
-                        <img className='w-14 ' src='pic.jpg' />
-                        <span className="ml- text-black font-semibold text-xl">Naman Bansal</span>
-
-                    </Link>
-
-                    <nav className=" text-black md:ml-96 ml-7 flex flex-wrap items-center text-base justify-center">
-                        <div class="p-2 space-y-1.5 bg-gray-600 rounded shadow">
-                            <span class="block w-5 h-0.5 bg-gray-100 animate-pulse"></span>
-                            <span class="block w-5 h-0.5 bg-gray-100 animate-pulse"></span>
-                            <span class="block w-5 h-0.5 bg-gray-100 animate-pulse"></span>
-                        </div>
-                        <Link href="/" className="mr-5 font-serif hover:text-red-100"> Home </Link>
-                        <Link href="/Skills" className="mr-5 font-serif hover:text-red-100">Skills</Link>
-                        <Link href="/Contact" className="mr-5 font-serif hover:text-red-100">Contact</Link>
-
-                    </nav>
-
-
-                </div>
-            </header> */}
-
+            
 
         </div>
     )
