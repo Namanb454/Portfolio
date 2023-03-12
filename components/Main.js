@@ -14,7 +14,7 @@ const Main = () => {
           <div className='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-cente'>
             <h2 className='sm:text-4xl text-2xl title-font font-sans font-semibold text-red-600 mt-4 mb-4'>Hi There!</h2>
             <h3 className='sm:text-2xl text-2xl title-font font-medium text-gray-700 mt-4 mb-4'>I&apos;m  Naman Bansal</h3>
-            <p className="leading-relaxed mb-8 text-slate-800"> I&apos;m a 2nd Year Informational Technology Engineering undergraduate at Dr. Akhilesh Das Gupta Institute Of Technology and Management (GGSIPU), Delhi. My expertise lies within front-end web apps, and the main languages in my tech stack are JavaScript, ReactJS and of course HTML/CSS. I&apos;m a lifelong learner and currently focusing on Back-end, Databases & Data Structure Algorithms .
+            <p className="leading-relaxed mb-8 text-slate-800"> I&apos;m a 2nd Year Informational Technology Engineering undergraduate at Dr. Akhilesh Das Gupta Institute Of Technology and Management (GGSIPU), Delhi. My expertise lies within front-end web apps, and the main languages in my tech stack are JavaScript, ReactJS, NextJS, MongoDB and of course HTML/CSS. I&apos;m a lifelong learner and currently focusing on Back-end, Databases & Data Structure Algorithms .
               <br />
               <br />
 
