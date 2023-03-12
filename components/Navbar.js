@@ -22,7 +22,7 @@ const Navbar = (props) => {
 
             <div className="flex items-center justify-between shadow-2xl md:py-4 py-2">
                 <Link href="/" className=" flex title-font font-medium items-center text-white mb-1 md:mb-0 md:mx-5">
-                    <img className='w-10 ' src='pic.jpg' />
+                    <img className='w-10 ' src='profile2.png' />
                     <span className="ml- text-black font-semibold animate-pulse text-xl">Naman Bansal</span>
 
                 </Link>
