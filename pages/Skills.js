@@ -4,9 +4,11 @@ import { FaCss3Alt } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { FaBootstrap } from 'react-icons/fa';
 import { SiTailwindcss } from 'react-icons/si';
+import { SiMongodb } from 'react-icons/si';
 import { GrReactjs } from 'react-icons/gr';
 import { TbBrandNextjs } from 'react-icons/tb';
-import { SiMongodb } from 'react-icons/si';
+import { DiNodejs } from 'react-icons/di';
+import { SiExpress } from 'react-icons/si';
 import { SiDjango } from 'react-icons/si';
 import { FaGitSquare } from 'react-icons/fa';
 
@@ -69,6 +71,15 @@ const Skills = () => {
                             </div>
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div className="h-full flex justify-center bg-lime-600 items-center border-gray-200 border p-4 rounded-lg">
+                                <SiMongodb className="w-16 h-16 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4" />
+                                <div className="">
+                                    <h2 className="text-white font-semibold font-serif title-font">MongoDB</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex justify-center bg-blue-300 items-center border-gray-200 border p-4 rounded-lg">
                                 <GrReactjs className="w-16 h-16  object-cover object-center flex-shrink-0 rounded-full mr-4" />
                                 <div className="">
@@ -87,10 +98,18 @@ const Skills = () => {
                             </div>
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                            <div className="h-full flex justify-center bg-green-600 items-center border-gray-200 border p-4 rounded-lg">
-                                <SiMongodb className="w-16 h-16 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4" />
+                            <div className="h-full flex justify-center bg-lime-600 items-center border-gray-200 border p-4 rounded-lg">
+                                <DiNodejs className="w-16 h-16 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4" />
                                 <div className="">
-                                    <h2 className="text-white font-semibold font-serif title-font">MongoDB</h2>
+                                    <h2 className="text-white font-semibold font-serif title-font">NodeJS</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div className="h-full flex justify-center bg-gray-400 items-center border-gray-200 border p-4 rounded-lg">
+                                <SiExpress className="w-16 h-16 bg-white object-cover object-center flex-shrink-0 rounded-full mr-4" />
+                                <div className="">
+                                    <h2 className="text-white font-semibold font-serif title-font">ExpressJS</h2>
                                 </div>
                             </div>
                         </div>
